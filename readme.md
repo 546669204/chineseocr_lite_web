@@ -4,7 +4,7 @@ Web 版 chineseocr_lite
 纯前端实现图片/视频的文本检测，角度检测，文本识别等功能。
 无需部署，打开即享。
 
-Demo https://a546669204.github.io/chineseocr_lite_web 
+Demo [(https://546669204.github.io/chineseocr_lite_web/](https://546669204.github.io/chineseocr_lite_web/)
 
 ### 依赖项
 ---
