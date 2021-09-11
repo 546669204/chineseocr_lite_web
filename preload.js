@@ -12,18 +12,18 @@ class Preload {
 
     {
       type: "model",
-      url: "/models/angle_net.onnx"
+      url: "./models/angle_net.onnx"
     }, {
       type: "model",
-      url: "/models/crnn_lite_lstm.onnx"
+      url: "./models/crnn_lite_lstm.onnx"
     }, {
       type: "model",
-      url: "/models/dbnet.onnx"
+      url: "./models/dbnet.onnx"
     },
 
     {
       type: "fetch",
-      url: "/models/keys.txt"
+      url: "./models/keys.txt"
     },
   ]
   constructor() {
