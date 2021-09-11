@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0,minimum-scale=1.0,user-scalable=0" />
+<head>
+  <title>chineseocr_lite_web</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div>
+    <input type="file" id="file" accept="image/*" />
+    <button id="playVideo">开始摄像模式</button>
+
+  </div>
+  <div id="canvasBox"></div>
+
+  <!-- loading -->
+  <div id="loadding-box">
+    <div class="hexagon" aria-label="Animated hexagonal ripples">
+      <div class="hexagon__group">
+        <div class="hexagon__sector"></div>
+        <div class="hexagon__sector"></div>
+        <div class="hexagon__sector"></div>
+        <div class="hexagon__sector"></div>
+        <div class="hexagon__sector"></div>
+        <div class="hexagon__sector"></div>
+      </div>
+      <div class="hexagon__group">
+        <div class="hexagon__sector"></div>
+        <div class="hexagon__sector"></div>
+        <div class="hexagon__sector"></div>
+        <div class="hexagon__sector"></div>
+        <div class="hexagon__sector"></div>
+        <div class="hexagon__sector"></div>
+      </div>
+      <div class="hexagon__group">
+        <div class="hexagon__sector"></div>
+        <div class="hexagon__sector"></div>
+        <div class="hexagon__sector"></div>
+        <div class="hexagon__sector"></div>
+        <div class="hexagon__sector"></div>
+        <div class="hexagon__sector"></div>
+      </div>
+      <div class="hexagon__group">
+        <div class="hexagon__sector"></div>
+        <div class="hexagon__sector"></div>
+        <div class="hexagon__sector"></div>
+        <div class="hexagon__sector"></div>
+        <div class="hexagon__sector"></div>
+        <div class="hexagon__sector"></div>
+      </div>
+      <div class="hexagon__group">
+        <div class="hexagon__sector"></div>
+        <div class="hexagon__sector"></div>
+        <div class="hexagon__sector"></div>
+        <div class="hexagon__sector"></div>
+        <div class="hexagon__sector"></div>
+        <div class="hexagon__sector"></div>
+      </div>
+      <div class="hexagon__group">
+        <div class="hexagon__sector"></div>
+        <div class="hexagon__sector"></div>
+        <div class="hexagon__sector"></div>
+        <div class="hexagon__sector"></div>
+        <div class="hexagon__sector"></div>
+        <div class="hexagon__sector"></div>
+      </div>
+    </div>
+    <p aria-label="Loading">Loading</p>
+  </div>
+
+  <script type="module" src="preload.js"></script>
+</body>
+
+</html>
